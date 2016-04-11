@@ -1,0 +1,316 @@
+/*
+ * CSR Live Stream Player Styling
+ * Aaron Cross
+ */
+ 
+ /* Main Layout Stuff*/
+
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 13px;
+color:#333;
+background-color:#eeeeee;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin: 0px 0px 0px 0px;
+}
+
+p, h3, h4, h5, h6 {
+font-family: "Lato", sans-serif;
+color:white;
+}
+		
+p {
+    padding-top: 5px;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#headerwrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    height: 50px;
+    background: url(../img/bg-trans.png        ) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#contentwrap {
+    width: 280px;
+    float: left;
+    margin-left:10px;
+}
+
+#content {
+    background: url(../img/bg-trans.png        ) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: auto;
+	margin: 2px 2px 2px 2px;
+}
+
+#lowerwrap {
+    float: left;
+    margin-top: -35px;
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+	left:0;
+	padding:0px;
+	margin:0px;
+	z-index: 1;
+		padding-left:5px;
+	padding-right:5px;
+	background-color: #cb2228;
+	width:100%;
+}
+
+#lowercolumn {
+width:100%;
+}
+
+#playerwrap {
+    width: 305px;
+    float: left;
+    margin: 0 auto;
+    clear: both;
+}
+
+#player {
+    height: 40px;
+	opacity:0.9;
+    border-radius: 4px;
+    margin: 5px 5px 0px 5px;
+}
+#messageBox {
+	width: 279px;
+	height: 150px;
+	opacity:0.8;
+    border-radius: 4px;
+	overflow: auto;
+	}
+
+#sendername { 
+ padding:6px; margin-left: 12px; width: 294px; height: 30px; margin-bottom:10px; border-radius:2px;  outline: none !important; border: none !important; resize: none;
+}
+#send {
+	 background: url(../img/bg-trans.png        ) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	 color:white;
+	 text-shadow:none;
+	 border:none;
+	 box-shadow:none;
+	 padding:4px 4px 4px 4px;
+}
+	
+ /* social media icons (from wp theme)*/
+
+#footer-social {
+    }
+	
+#footer-social li.facebook a {
+    background: url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/facebook.png") no-repeat left 
+    }
+
+#footer-social li.facebook a:hover { 
+    background: #3b5998 url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/facebook.png") no-repeat left;
+    border-radius: 25px;
+	}
+
+
+#footer-social li.youtube a {
+    background: url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/youtube.png") no-repeat left 
+    }
+
+#footer-social li.youtube a:hover {
+    background: #ff3132 url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/youtube.png") no-repeat left;
+	border-radius: 25px;	
+    }
+
+#footer-social li.twitter a {
+    background: url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/twitter.png") no-repeat left 
+    }
+
+#footer-social li.twitter a:hover {
+    background: #2daae1 url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/twitter.png") no-repeat left;
+	border-radius: 25px;	
+    }
+	
+#footer-social li.instagram a {
+    background: url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/instagram.png") no-repeat left 
+    }
+
+#footer-social li.instagram a:hover { 
+    background: #3f6f94 url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/instagram.png") no-repeat left;
+	border-radius: 25px;
+    }
+	
+#footer-social li.soundcloud a {
+    background: url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/soundcloud.png") no-repeat left 
+    }
+
+#footer-social li.soundcloud a:hover { 
+    background: #ff5600 url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/soundcloud.png") no-repeat left;
+	border-radius: 25px;
+    }
+	
+#footer-social li.mixcloud a {
+    background: url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/mixcloud.png") no-repeat left 
+    }
+
+#footer-social li.mixcloud a:hover { 
+    background: #6bdbf9 url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/mixcloud.png") no-repeat left;
+	border-radius: 25px;	
+    }
+	
+	#footer-social li.audioboo a {
+    background: url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/audioboom.png") no-repeat left 
+    }
+
+#footer-social li.audioboo a:hover { 
+    background: #B0006E url("http://www.csrfm.com/wp-content/themes/soundwave/images/social/icon/audioboom.png") no-repeat left;
+	border-radius: 25px;
+    }
+
+#footer-social li {
+    list-style: none;
+    float: left;
+    }
+
+#footer-social li a {
+    list-style: none;
+    text-align: center;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 5px;
+    }
+	
+ /* JPlayer stuff */
+ 
+div.jp-audio {
+	font-size: 1em;
+	font-family: Verdana, Arial, sans-serif;
+	color: #fff;
+	line-height: 1.6;
+}
+
+div.jp-audio {
+    margin-top:5px;
+	margin-left:7px;
+	width: 140px;
+}
+
+div.jp-interface {
+	position: relative;
+	width: 100%;
+	height:30px;
+}
+
+/* The seeking class is added/removed inside jPlayer
+div.jp-seeking-bg {
+	background: url("pbar-ani.gif");
+}
+*/
+
+div.counter {
+	width: 17px;
+	height: 13px;
+	z-index: 1;
+	outline: none;
+	top: 9px;
+	left: 115px;
+}
+
+div.jp-jplayer {
+	width:0px;
+	height:0px;
+}
+
+div.jp-jplayer {
+}
+
+textarea { padding:10px; margin-left: 12px; width: 285px; height: 110px; margin-bottom:10px; border-radius:2px;  outline: none !important; border: none !important; resize: none; }
+
+textarea:focus { outline: none !important; border: none !important; }
+	
+.button { margin-left: 12px; color: #fff; background-color: #000; text-transform: uppercase;	letter-spacing: 2px; font-size: 12px; width: 91%; height: 36px; border-radius: 5px; border-color: rgba(0,0,0,0.5); }
+
+div.showtime-now-playing {
+    float: left;
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+	left:0;
+	padding:0px;
+	margin:0px;
+	margin-right:10px;
+	z-index: 1;
+    }
+
+
+div.showtime-now-playing h3 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 0.9;
+    margin-right: 20px;
+    padding: 2px 4px;
+	padding-left:15px;
+	padding-top:12px;
+	padding-bottom:8px;
+	padding-right:14px;
+	margin-bottom: 10px;
+	z-index: 1;
+background-color:	 #cb2228; 
+    }
+
+
+div.showtime-now-playing h4 {
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 3px;
+    padding: 0px 4px;
+    }
+
+div.showtime-now-playing a:hover {
+    color: #fff;
+    }
+	
+	div.playerright {
+	float:right;
+width:150px;	
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid #cb2228; 
+    height: 0;
+	margin-bottom:10px;
+    }
+		div.socialleft {
+	float:left;
+width:270px;	
+    float: none;
+    margin: 0 auto;	
+    height: 0;
+    }
+	
+			div.last{
+width:44px;	
+    border-left: 18px solid transparent;
+    border-bottom: 18px solid #cb2228; 
+    height: 0;
+
+    }
+	
+			div.next {
+width:42px;	
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid #cb2228; 
+    height: 0;
+
+    }
+div.now {
+width:100px;	
+background: #cb2228; 
+    }
+.button:hover { color: #fff; background-color: #c91517; border-color: rgba(0,0,0,0.5); cursor: pointer; }
